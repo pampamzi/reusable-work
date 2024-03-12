@@ -1,3 +1,4 @@
+on: push
 jobs:
   my-job:
     uses: pampamzi/actions-learning-pathway/.github/workflows/build-test-deploy.yml@main
