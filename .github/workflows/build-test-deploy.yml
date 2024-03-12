@@ -1,11 +1,12 @@
 name: use reusable
 
-on: workflow-dispatch
+on: workflow_dispatch
 
 
 jobs:
-  runs-on: ubuntu-latest
-    my-job:
-      uses: pampamzi/actions-learning-pathway/.github/workflows/build-test-deploy.yml@main
-    with:
-      node-version: '18.x'
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: pampamzi/actions-learning-pathway/.github/workflows/build-test-deploy.yml@main
+      with:
+        node-version: '18.x'
