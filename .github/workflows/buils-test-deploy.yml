@@ -1,5 +1,5 @@
 jobs:
   my-job:
-    uses: pampamzi/actions-learning-pathway/blob/main/.github/workflows/buils-test-deploy.yml
+    uses: pampamzi/actions-learning-pathway/blob/main/.github/workflows/buils-test-deploy.yml@main
   with:
   node-version: '17.x'
