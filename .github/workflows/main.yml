@@ -21,7 +21,7 @@ jobs:
         
       - name: Generate list using Markdown 2
         run: |
-          echo "- Lets add a second bullet point" >> $GITHUB_STEP_SUMMARY
+          echo "- Lets add a second bullet point" > $GITHUB_STEP_SUMMARY
           echo "- How about a third one?" >> $GITHUB_STEP_SUMMARY
         
 
